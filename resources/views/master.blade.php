@@ -39,6 +39,9 @@
     <div class="boxed_wrapper">
         @include('layouts.preload')
         @include('layouts.header')
+
+        @include('layouts.footer')
+
     </div>
 </body>
 
