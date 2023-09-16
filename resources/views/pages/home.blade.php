@@ -1,5 +1,6 @@
 @extends('master')
 
+@section('title', 'Home Page')
 @section('content')
     <!-- banner-section -->
     <section class="banner-section centred">

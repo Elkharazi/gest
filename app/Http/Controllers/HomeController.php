@@ -11,9 +11,4 @@ class HomeController extends Controller
 
         return view('pages.home');
     }
-    public function add()
-    {
-
-        return view('test2');
-    }
 }

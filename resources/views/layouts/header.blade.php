@@ -31,7 +31,7 @@
                             <li class="dropdown"><a href="index-2.html">Activities</a>
                                 <ul>
                                     <li><a href="activities.html">Activities</a></li>
-                                    <li><a href="climbing.html">Climbing</a></li>
+                                    <li><a href="{{ route('climbing') }}">Climbing</a></li>
                                     <li><a href="adventure.html">Adventure</a></li>
                                     <li><a href="camping.html">Camping</a></li>
                                     <li><a href="diving.html">Diving</a></li>
@@ -41,7 +41,7 @@
                             </li>
                             <li class="current dropdown"><a href="index-2.html">Pages</a>
                                 <ul>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
                                     <li><a href="team.html">Our Team</a></li>
                                     <li><a href="gallery.html">Our Gallery</a></li>
                                     <li><a href="error.html">404</a></li>
