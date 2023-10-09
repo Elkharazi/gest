@@ -14,37 +14,37 @@
                 <nav class="main-menu navbar-expand-md navbar-light">
                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                         <ul class="navigation clearfix">
-                            <li class="dropdown"><a href="index-2.html">Home</a>
+                            <li class="dropdown" style="color: red"><a href="index-2.html">bonjour tout le monde</a>
                                 <ul>
-                                    <li><a href="index-2.html">Home Page One</a></li>
-                                    <li><a href="index-3.html">Home Page Two</a></li>
-                                    <li><a href="index-onepage.html">Home OnePage</a></li>
-                                    <li><a href="index-rtl.html">Home RTL</a></li>
-                                    <li class="dropdown"><a href="index-2.html">Header Style</a>
+                                    <li><a href="{{ route('home_Page_One') }}">Home Page One</a></li>
+                                    <li><a href="{{ route('home_Page_Two') }}">Home Page Two</a></li>
+                                    <li><a href="{{ route('home_OnePage') }}">Home OnePage</a></li>
+                                    <li><a href="{{ route('index_rtl') }}">Home RTL</a></li>
+                                    <li class="dropdown"><a href="{{ route('home_Page_One') }}">Header Style</a>
                                         <ul>
-                                            <li><a href="index-2.html">Header Style One</a></li>
-                                            <li><a href="index-3.html">Header Style Two</a></li>
+                                            <li><a href="{{ route('home_Page_One') }}">Header Style One</a></li>
+                                            <li><a href="{{ route('home_Page_One') }}">Header Style Two</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="index-2.html">Activities</a>
+                            <li class="dropdown"><a href="{{ route('activities') }}">Activities</a>
                                 <ul>
-                                    <li><a href="activities.html">Activities</a></li>
+                                    <li><a href="{{ route('activities') }}">Activities</a></li>
                                     <li><a href="{{ route('climbing') }}">Climbing</a></li>
-                                    <li><a href="adventure.html">Adventure</a></li>
-                                    <li><a href="camping.html">Camping</a></li>
-                                    <li><a href="diving.html">Diving</a></li>
-                                    <li><a href="parachute.html">Parachute</a></li>
-                                    <li><a href="throwing.html">Throwing</a></li>
+                                    <li><a href="{{ route('adventure') }}">Adventure</a></li>
+                                    <li><a href="{{ route('camping') }}">Camping</a></li>
+                                    <li><a href="{{ route('diving') }}">Diving</a></li>
+                                    <li><a href="{{ route('parachute') }}">Parachute</a></li>
+                                    <li><a href="{{ route('throwing') }}">Throwing</a></li>
                                 </ul>
                             </li>
                             <li class="current dropdown"><a href="index-2.html">Pages</a>
                                 <ul>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
-                                    <li><a href="team.html">Our Team</a></li>
-                                    <li><a href="gallery.html">Our Gallery</a></li>
-                                    <li><a href="error.html">404</a></li>
+                                    <li><a href="{{ route('team') }}">Our Team</a></li>
+                                    <li><a href="{{ route('gallery') }}">Our Gallery</a></li>
+                                    <li><a href="{{ route('error') }}">404</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown"><a href="index-2.html">Elements</a>
@@ -55,14 +55,16 @@
                                                 <li>
                                                     <h4>Elements 1</h4>
                                                 </li>
-                                                <li><a href="about-element-1.html">About Block 01</a></li>
-                                                <li><a href="about-element-2.html">About Block 02</a></li>
-                                                <li><a href="about-element-3.html">About Block 03</a></li>
-                                                <li><a href="activities-element-1.html">Activities Block 01</a></li>
-                                                <li><a href="activities-element-2.html">Activities Block 02</a></li>
-                                                <li><a href="news-element-1.html">News Block 01</a></li>
-                                                <li><a href="news-element-2.html">News Block 02</a></li>
-                                                <li><a href="team-element-1.html">Team Block 01</a></li>
+                                                <li><a href="{{ route('about_element_1') }}">About Block 01</a></li>
+                                                <li><a href="{{ route('about_element_2') }}">About Block 02</a></li>
+                                                <li><a href="{{ route('about_element_3') }}">About Block 03</a></li>
+                                                <li><a href="{{ route('activities_element_1') }}">Activities Block
+                                                        01</a></li>
+                                                <li><a href="{{ route('activities_element_2') }}">Activities Block
+                                                        02</a></li>
+                                                <li><a href="{{ route('news_element_1') }}">News Block 01</a></li>
+                                                <li><a href="{{ route('news_element_2') }}">News Block 02</a></li>
+                                                <li><a href="{{ route('team_element_1') }}">Team Block 01</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6 column">
@@ -70,26 +72,29 @@
                                                 <li>
                                                     <h4>Elements 2</h4>
                                                 </li>
-                                                <li><a href="team-element-2.html">Team Block 02</a></li>
-                                                <li><a href="feature-element-1.html">Feature Block 01</a></li>
-                                                <li><a href="feature-element-2.html">Feature Block 02</a></li>
-                                                <li><a href="video-element.html">Video Block</a></li>
-                                                <li><a href="gallery-element.html">Gallery Block</a></li>
-                                                <li><a href="testimonial-element.html">Testimonial Block</a></li>
-                                                <li><a href="cta-element.html">Cta Block</a></li>
-                                                <li><a href="clients-element.html">Clients Block</a></li>
+                                                <li><a href="{{ route('team_element_2') }}">Team Block 02</a></li>
+                                                <li><a href="{{ route('feature_element_1') }}">Feature Block 01</a>
+                                                </li>
+                                                <li><a href="{{ route('feature_element_2') }}">Feature Block 02</a>
+                                                </li>
+                                                <li><a href="{{ route('video_element') }}">Video Block</a></li>
+                                                <li><a href="{{ route('gallery_element') }}">Gallery Block</a></li>
+                                                <li><a href="{{ route('testimonial_element') }}">Testimonial Block</a>
+                                                </li>
+                                                <li><a href="{{ route('cta_element') }}">Cta Block</a></li>
+                                                <li><a href="{{ route('clients_element') }}">Clients Block</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="dropdown"><a href="index-2.html">Blog</a>
+                            <li class="dropdown"><a href="{{ route('blog') }}">Blog</a>
                                 <ul>
-                                    <li><a href="blog.html">Our Blog</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="{{ route('blog') }}">Our Blog</a></li>
+                                    <li><a href="{{ route('blog_details') }}">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
