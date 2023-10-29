@@ -53,3 +53,6 @@ Route::get('/index_2', [HomeController::class, 'index_2'])->name('index_3');
 Route::get('/index_3', [HomeController::class, 'index_3'])->name('index_3');
 Route::get('/news_element_1', [HomeController::class, 'news_element_1'])->name('news_element_1');
 Route::get('/news_element_2', [HomeController::class, 'news_element_2'])->name('news_element_2');
+Route::get('/login', [HomeController::class, 'login'])->name('login');
+Route::get('/register', [HomeController::class, 'register'])->name('register');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

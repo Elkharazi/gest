@@ -95,6 +95,8 @@
                                 </ul>
                             </li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
+                            <li><a href="login">connexion</a></li>
+                            <li><a href="register">inscription</a></li>
                         </ul>
                     </div>
                 </nav>
