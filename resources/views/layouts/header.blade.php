@@ -14,19 +14,8 @@
                 <nav class="main-menu navbar-expand-md navbar-light">
                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                         <ul class="navigation clearfix">
-                            <li class="dropdown" style="color: red"><a href="index-2.html">bonjour tout le monde</a>
-                                <ul>
-                                    <li><a href="{{ route('home_Page_One') }}">Home Page One</a></li>
-                                    <li><a href="{{ route('home_Page_Two') }}">Home Page Two</a></li>
-                                    <li><a href="{{ route('home_OnePage') }}">Home OnePage</a></li>
-                                    <li><a href="{{ route('index_rtl') }}">Home RTL</a></li>
-                                    <li class="dropdown"><a href="{{ route('home_Page_One') }}">Header Style</a>
-                                        <ul>
-                                            <li><a href="{{ route('home_Page_One') }}">Header Style One</a></li>
-                                            <li><a href="{{ route('home_Page_One') }}">Header Style Two</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                            <li style="color: red"><a href="index-2.html">
+                                    <a href="{{ route('home_Page_One') }}">Home</a>
                             </li>
                             <li class="dropdown"><a href="{{ route('activities') }}">Activities</a>
                                 <ul>
